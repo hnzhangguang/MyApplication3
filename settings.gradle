@@ -1,1 +1,2 @@
 include ':app'
+include ':金融移动平台'

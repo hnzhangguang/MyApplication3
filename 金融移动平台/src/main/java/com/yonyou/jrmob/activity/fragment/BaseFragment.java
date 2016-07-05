@@ -32,6 +32,7 @@ public abstract class BaseFragment extends Fragment {
 		mActivity = getActivity();
 		mToast = Toast.makeText(mActivity, "???", Toast.LENGTH_LONG);
 		// 初始化
+		//noinspection deprecation
 		mShare = mActivity.getSharedPreferences("scheduleshared",
 				Context.MODE_WORLD_WRITEABLE);
 	}
