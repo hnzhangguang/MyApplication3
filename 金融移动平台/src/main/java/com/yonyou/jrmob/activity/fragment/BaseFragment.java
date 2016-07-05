@@ -30,7 +30,7 @@ public abstract class BaseFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		mActivity = getActivity();
-		mToast = Toast.makeText(mActivity, "空", Toast.LENGTH_LONG);
+		mToast = Toast.makeText(mActivity, "???", Toast.LENGTH_LONG);
 		// 初始化
 		mShare = mActivity.getSharedPreferences("scheduleshared",
 				Context.MODE_WORLD_WRITEABLE);
